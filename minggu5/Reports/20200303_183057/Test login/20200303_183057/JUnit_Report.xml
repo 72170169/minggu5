@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test login" time="8.335" tests="1" failures="0" errors="0">
+   <testsuite name="Test login" tests="1" failures="0" errors="0" time="8.335" timestamp="2020-03-03 18:30:59" hostname="MIS-17 - DESKTOP-SVN39UL" id="Test Suites/Test login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\72170169\\minggu5\\Reports\\20200303_183057\\Test login\\20200303_183057"/>
+         <property name="logFiles" value="E:\\72170169\\minggu5\\Reports\\20200303_183057\\Test login\\20200303_183057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MIS-17 - DESKTOP-SVN39UL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 80.0.3987.122"/>
+         <property name="hostAddress" value="10.10.10.57"/>
+         <property name="sessionId" value="f950961fd6986e35d55064c14d8845fb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/testing login dians dan kopi" time="7.946" classname="Test Cases/testing login dians dan kopi" status="PASSED">
+         <system-out><![CDATA[2020-03-03 18:31:00 - [TEST_CASE][PASSED] - Test Cases/testing login dians dan kopi: Test Cases/testing login dians dan kopi
+
+2020-03-03 18:31:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-03 18:31:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-03 18:31:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-03 18:31:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-03 18:31:05 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah1/index.php/admin/login"): Navigate to 'http://localhost/tokobuah1/index.php/admin/login' successfully
+
+2020-03-03 18:31:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah1/index.php/admin/login' successfully
+
+2020-03-03 18:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login Admin/input_Email_email"), "dian"): Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-03 18:31:05 - [MESSAGE][PASSED] - Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-03 18:31:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Admin/input_Password_password"), "MMS/zmTQxAM="): Text ****** has been set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-03 18:31:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-03 18:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login Admin/input_Lupa Password_btn btn-success w-100")): Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-03 18:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-03 18:31:07 - [TEST_STEP][PASSED] - halaman_tujuan = getUrl(): Current window's url is: 'http://localhost/tokobuah/index.php/admin'
+
+2020-03-03 18:31:07 - [MESSAGE][PASSED] - Current window's url is: 'http://localhost/tokobuah/index.php/admin'
+
+2020-03-03 18:31:07 - [TEST_STEP][PASSED] - verifyMatch(halaman_tujuan, "http://localhost/tokobuah/index.php/admin", false): Actual text 'http://localhost/tokobuah/index.php/admin' and expected text 'http://localhost/tokobuah/index.php/admin' are matched 
+
+2020-03-03 18:31:07 - [MESSAGE][PASSED] - Actual text 'http://localhost/tokobuah/index.php/admin' and expected text 'http://localhost/tokobuah/index.php/admin' are matched 
+
+2020-03-03 18:31:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-03-03 18:31:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-03 18:30:59 - [TEST_SUITE][PASSED] - Test login: Test Cases/testing login dians dan kopi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
